@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Item Banc engine</title>
+
+    <!--<link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/dashboard/">-->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="dashboard.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://unpkg.com/moralis-v1@1.11.0/dist/moralis.js"></script>    
+    
+  </head>
+  <body>
+    
+<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Item Banc</a>
+  <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+  <div class="navbar-nav">
+    <div class="nav-item text-nowrap">
+      <a id="btn-logout"   class="nav-link px-3" href="index.html">home</a>
+    </div>
+  </div>
+</header>
+
+<div class="container-fluid">
+  <div class="row">
+    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+      <div class="position-sticky pt-3">
+        <ul class="nav flex-column">
+          <img class="mb-4" src="logoblue.gif" alt="" width="180" height="180">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="itembancengine.html">
+              <span data-feather="file"></span>
+              item banc engine
+            </a>
+          </li>
+          <li class="nav-item">
+            <a id="get-nationdata" class="nav-link" href="countrydata.html">
+              <span data-feather="file"></span>
+              nation data
+            </a>
+          </li>
+          <li class="nav-item">
+            <a id="get-itemdata" class="nav-link" href="itemdata.html">
+              <span data-feather="file"></span>
+              item data
+            </a>
+          </li>
+          <li class="nav-item">
+            <a id="get-about" class="nav-link" href="itembancabout.html">
+              <span data-feather="file"></span>
+              about item banc
+            </a>
+          </li>
+  
+        </ul>
+
+       
+      </div>
+    </nav>
+
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">item banc indicators/ item banc engine</h1>  
+      </div>
+
+      <h2>item banc index:</h2>
+
+      <br>
+      <span id=dAvgBasket style="color:blue" style="font-weight:bold"></span>
+      <br>
+      <p>
+      <span id=dus></span>
+      <span id=dfrance></span>
+      <span id=dturkey></span>
+      <span id=dmalawi></span> 
+      <span id=dcolombia></span>
+      <span id=djamaica></span> 
+      <span id=dsouthafrica></span>
+      <span id=dukraine></span>
+      <span id=duzbekistan></span>
+      <span id=dseychelles></span>
+      <span id=dbahamas></span>
+      <span id=dindia></span>
+      <span id=dpakistan></span>
+      <span id=dkosovo></span>
+      <span id=dchile></span>
+      <span id=dcameroon></span>
+      <span id=dghana></span>
+      <span id=dhaiti></span>
+      <span id=dmalaysia></span>
+      <span id=dmauritius></span>
+      <span id=dnigeria></span>
+      <span id=dsingapore></span>
+      <span id=ddenmark></span>
+      <span id=dchina></span>
+      <span id=dnorway></span>
+      <span id=dcyprus></span>
+      <span id=dethiopia></span>
+      <span id=dpoland></span>
+      <span id=dswizerland></span>
+      <span id=duganda></span>
+      <span id=dbotswana></span>
+      <span id=dzambia></span>
+      <span id=dkenya></span>
+      <span id=dtaiwan></span>
+      <span id=dportugal></span>
+      <span id=dbrasil></span>
+      <span id=drussia></span>
+      <span id=dbritain></span>
+      <span id=dgeorgia></span>
+      <span id=dtrinidad></span>
+      <span id=dcongo></span>
+      <span id=degypt></span>
+      <span id=dalbania></span>
+      <span id=deswatini></span>
+      <span id=dmontenegro></span>
+      <span id=dnicaragua></span>
+      <span id=dmorocco></span>
+      <span id=dperu></span>
+      <span id=dsaudiarabia></span>
+      <span id=dsierraleone></span>
+      <span id=dvietnam></span>
+      <span id=dromania></span>
+      <span id=dburkinafaso></span>
+      <span id=djapan></span>
+      <span id=dhonduras></span>
+      <span id=dbelarus></span>
+      <span id=dbolivia></span>
+      <span id=dtunisia></span>
+      <span id=dargentina></span>
+      <span id=dsuriname></span>
+      <span id=dguyana></span>
+      <span id=dcanada></span>
+      <span id=dUAE></span>
+      <span id=dstmaarten></span>
+      <span id=dbenin></span>
+      <span id=darmenia></span>
+      <span id=dphilippines></span>
+      <span id=doman></span>
+      <span id=dbulgaria></span>
+      <span id=dnetherlands></span>
+      <span id=dkazakhstan></span>
+      <span id=dsouthkorea></span>
+      <span id=dgermany></span>
+      <span id=dthailand></span>
+      <span id=dalgeria></span>
+      <span id=decuador></span>
+      <span id=dhungary></span>
+      <span id=duruguay></span>
+      <span id=dserbia></span>
+      <span id=dmexico></span>
+      <span id=dcostarica></span>
+      <span id=dgreece></span>
+      <span id=dlithuania></span>
+      <span id=dvietnam></span>
+      <span id=dbangladesh></span>
+      <span id=dslovakia></span>
+      <span id=direland></span>
+      <span id=dslovenia></span>
+      <span id=daustria></span>
+      <span id=dvenezuela></span>
+      <span id=disrael></span>
+      <span id=dmongolia></span>
+      <span id=dnorthmacedonia></span>
+      <span id=dcroatia></span>
+      <span id=destonia></span>
+      <span id=djordan></span>
+      <span id=dsweden></span>
+      <span id=dqatar></span>
+      <span id=dfinland></span>
+      <span id=dcambodia></span>
+      <span id=dazerbaijan></span>
+      <span id=dmozambique></span>
+      <span id=dspain></span>
+      </p> 
+      
+      
+         
+        
+      <button id='btn-countrydata' class="w-100 btn btn-lg btn-primary" type="submit">Get Nation Data</button>
+    <p class="mt-5 mb-3 text-muted"></p>
+
+     
+
+    </main>
+  </div>
+</div>
+
+
+
+<script src="bootstrap.bundle.min.js"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script><script src="dashboard.js"></script>
+<script>
+  getNationData = async () => {
+    console.log('nation data was clicked');
+    document.write("nation data");
+    window.location.href= "countrydata.html";
+}
+document.getElementById("btn-countrydata").onclick = getNationData;
+</script>
+    <script src="main.js"></script>
+    <script src="enginedata.js"></script>
+    </body>
+</html>
