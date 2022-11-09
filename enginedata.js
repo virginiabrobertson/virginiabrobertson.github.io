@@ -565,6 +565,7 @@ function displayCountry(newCountry, basketConvert, ibIndex, ibBasket, avgBasket)
         document.getElementById("dspain").innerHTML=showSpain;
     }
 
+    
 
     
 }
