@@ -113,6 +113,8 @@ document.getElementById("btn-enginedata").onclick = getEngineData;
 //document.querySelector('#get-about').onclick = getAbout;
 //}
 document.getElementById("btn-about").onclick = getAbout;
+document.getElementById("btn-justabout").onclick = getAbout;
+
 if(document.querySelector('#get-see') !=null){
 document.querySelector('#get-see').onclick = getSee;
 }
