@@ -5,7 +5,7 @@
 getNewItemData1 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending ("createdAt");
     //query.include('tunacan');
     const newInfo = await query.find();
    // for (let i=0; i < nextCountry.length; i++){
@@ -27,7 +27,7 @@ getNewItemData1 = async () => {
  getNewItemData2 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-2;
      const Country=newInfo[count];
@@ -47,7 +47,7 @@ getNewItemData1 = async () => {
  getNewItemData3 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-3;
      const Country=newInfo[count];
@@ -67,7 +67,7 @@ getNewItemData1 = async () => {
  getNewItemData4 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-4;
      const Country=newInfo[count];
@@ -87,7 +87,7 @@ getNewItemData1 = async () => {
  getNewItemData5 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-5;
      const Country=newInfo[count];
@@ -107,7 +107,7 @@ getNewItemData1 = async () => {
  getNewItemData6 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-6;
      const Country=newInfo[count];
@@ -127,7 +127,7 @@ getNewItemData1 = async () => {
  getNewItemData7 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-7;
      const Country=newInfo[count];
@@ -147,7 +147,7 @@ getNewItemData1 = async () => {
  getNewItemData8 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-8;
      const Country=newInfo[count];
@@ -167,7 +167,7 @@ getNewItemData1 = async () => {
  getNewItemData9 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-9;
      const Country=newInfo[count];
@@ -187,7 +187,7 @@ getNewItemData1 = async () => {
  getNewItemData10 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-10;
      const Country=newInfo[count];
@@ -207,7 +207,7 @@ getNewItemData1 = async () => {
  getNewItemData11 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-11;
      const Country=newInfo[count];
@@ -227,7 +227,7 @@ getNewItemData1 = async () => {
  getNewItemData12 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-12;
      const Country=newInfo[count];
@@ -247,7 +247,7 @@ getNewItemData1 = async () => {
  getNewItemData13 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-13;
      const Country=newInfo[count];
@@ -267,7 +267,7 @@ getNewItemData1 = async () => {
  getNewItemData14 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-14;
      const Country=newInfo[count];
@@ -287,7 +287,7 @@ getNewItemData1 = async () => {
  getNewItemData15 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-1;
      const Country=newInfo[count];
@@ -307,7 +307,7 @@ getNewItemData1 = async () => {
  getNewItemData16 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-2;
      const Country=newInfo[count];
@@ -327,7 +327,7 @@ getNewItemData1 = async () => {
  getNewItemData17 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-3;
      const Country=newInfo[count];
@@ -347,7 +347,7 @@ getNewItemData1 = async () => {
  getNewItemData18 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-4;
      const Country=newInfo[count];
@@ -365,7 +365,7 @@ getNewItemData1 = async () => {
  getNewItemData19 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-5;
      const Country=newInfo[count];
@@ -383,7 +383,7 @@ getNewItemData1 = async () => {
  getNewItemData20 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-6;
      const Country=newInfo[count];
@@ -401,7 +401,7 @@ getNewItemData1 = async () => {
  getNewItemData21 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-7;
      const Country=newInfo[count];
@@ -419,7 +419,7 @@ getNewItemData1 = async () => {
  getNewItemData22 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-8;
      const Country=newInfo[count];
@@ -437,7 +437,7 @@ getNewItemData1 = async () => {
  getNewItemData23 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-9;
      const Country=newInfo[count];
@@ -455,7 +455,7 @@ getNewItemData1 = async () => {
  getNewItemData24 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-10;
      const Country=newInfo[count];
@@ -473,7 +473,7 @@ getNewItemData1 = async () => {
  getNewItemData25 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-11;
      const Country=newInfo[count];
@@ -491,7 +491,7 @@ getNewItemData1 = async () => {
  getNewItemData26 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-12;
      const Country=newInfo[count];
@@ -509,7 +509,7 @@ getNewItemData1 = async () => {
  getNewItemData27 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-13;
      const Country=newInfo[count];
@@ -527,7 +527,7 @@ getNewItemData1 = async () => {
  getNewItemData28 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-14;
      const Country=newInfo[count];
@@ -545,7 +545,7 @@ getNewItemData1 = async () => {
  getNewItemData29 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-1;
      const Country=newInfo[count];
@@ -563,7 +563,7 @@ getNewItemData1 = async () => {
  getNewItemData30 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-2;
      const Country=newInfo[count];
@@ -581,7 +581,7 @@ getNewItemData1 = async () => {
  getNewItemData31 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-3;
      const Country=newInfo[count];
@@ -599,7 +599,7 @@ getNewItemData1 = async () => {
  getNewItemData32 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-4;
      const Country=newInfo[count];
@@ -617,7 +617,7 @@ getNewItemData1 = async () => {
  getNewItemData33 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-5;
      const Country=newInfo[count];
@@ -635,7 +635,7 @@ getNewItemData1 = async () => {
  getNewItemData34 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-6;
      const Country=newInfo[count];
@@ -653,7 +653,7 @@ getNewItemData1 = async () => {
  getNewItemData35 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-7;
      const Country=newInfo[count];
@@ -671,7 +671,7 @@ getNewItemData1 = async () => {
  getNewItemData36 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-8;
      const Country=newInfo[count];
@@ -689,7 +689,7 @@ getNewItemData1 = async () => {
  getNewItemData37 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-9;
      const Country=newInfo[count];
@@ -707,7 +707,7 @@ getNewItemData1 = async () => {
  getNewItemData38 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-10;
      const Country=newInfo[count];
@@ -725,7 +725,7 @@ getNewItemData1 = async () => {
  getNewItemData39 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-11;
      const Country=newInfo[count];
@@ -743,7 +743,7 @@ getNewItemData1 = async () => {
  getNewItemData40 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-12;
      const Country=newInfo[count];
@@ -761,7 +761,7 @@ getNewItemData1 = async () => {
  getNewItemData41 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-13;
      const Country=newInfo[count];
@@ -779,7 +779,7 @@ getNewItemData1 = async () => {
  getNewItemData42 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-14;
      const Country=newInfo[count];
@@ -797,7 +797,7 @@ getNewItemData1 = async () => {
  getNewItemData43 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-1;
      const Country=newInfo[count];
@@ -815,7 +815,7 @@ getNewItemData1 = async () => {
  getNewItemData44 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-2;
      const Country=newInfo[count];
@@ -833,7 +833,7 @@ getNewItemData1 = async () => {
  getNewItemData45 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-3;
      const Country=newInfo[count];
@@ -851,7 +851,7 @@ getNewItemData1 = async () => {
  getNewItemData46 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-4;
      const Country=newInfo[count];
@@ -869,7 +869,7 @@ getNewItemData1 = async () => {
  getNewItemData47 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-5;
      const Country=newInfo[count];
@@ -887,7 +887,7 @@ getNewItemData1 = async () => {
  getNewItemData48 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-6;
      const Country=newInfo[count];
@@ -905,7 +905,7 @@ getNewItemData1 = async () => {
  getNewItemData49 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-7;
      const Country=newInfo[count];
@@ -923,7 +923,7 @@ getNewItemData1 = async () => {
  getNewItemData50 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-8;
      const Country=newInfo[count];
@@ -941,7 +941,7 @@ getNewItemData1 = async () => {
  getNewItemData51 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-9;
      const Country=newInfo[count];
@@ -959,7 +959,7 @@ getNewItemData1 = async () => {
  getNewItemData52 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-10;
      const Country=newInfo[count];
@@ -977,7 +977,7 @@ getNewItemData1 = async () => {
  getNewItemData53 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-11;
      const Country=newInfo[count];
@@ -995,7 +995,7 @@ getNewItemData1 = async () => {
  getNewItemData54 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-12;
      const Country=newInfo[count];
@@ -1013,7 +1013,7 @@ getNewItemData1 = async () => {
  getNewItemData55 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-13;
      const Country=newInfo[count];
@@ -1031,7 +1031,7 @@ getNewItemData1 = async () => {
  getNewItemData56 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-14;
      const Country=newInfo[count];
@@ -1049,7 +1049,7 @@ getNewItemData1 = async () => {
  getNewItemData57 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-1;
      const Country=newInfo[count];
@@ -1067,7 +1067,7 @@ getNewItemData1 = async () => {
  getNewItemData58 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-2;
      const Country=newInfo[count];
@@ -1085,7 +1085,7 @@ getNewItemData1 = async () => {
  getNewItemData59 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-3;
      const Country=newInfo[count];
@@ -1103,7 +1103,7 @@ getNewItemData1 = async () => {
  getNewItemData60 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-4;
      const Country=newInfo[count];
@@ -1121,7 +1121,7 @@ getNewItemData1 = async () => {
  getNewItemData61 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-5;
      const Country=newInfo[count];
@@ -1139,7 +1139,7 @@ getNewItemData1 = async () => {
  getNewItemData62 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-6;
      const Country=newInfo[count];
@@ -1157,7 +1157,7 @@ getNewItemData1 = async () => {
  getNewItemData63 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-7;
      const Country=newInfo[count];
@@ -1175,7 +1175,7 @@ getNewItemData1 = async () => {
  getNewItemData64 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-8;
      const Country=newInfo[count];
@@ -1193,7 +1193,7 @@ getNewItemData1 = async () => {
  getNewItemData65 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-9;
      const Country=newInfo[count];
@@ -1211,7 +1211,7 @@ getNewItemData1 = async () => {
  getNewItemData66 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-10;
      const Country=newInfo[count];
@@ -1229,7 +1229,7 @@ getNewItemData1 = async () => {
  getNewItemData67 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-11;
      const Country=newInfo[count];
@@ -1247,7 +1247,7 @@ getNewItemData1 = async () => {
  getNewItemData68 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-12;
      const Country=newInfo[count];
@@ -1265,7 +1265,7 @@ getNewItemData1 = async () => {
  getNewItemData69 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-13;
      const Country=newInfo[count];
@@ -1283,7 +1283,7 @@ getNewItemData1 = async () => {
  getNewItemData70 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-14;
      const Country=newInfo[count];
@@ -1301,7 +1301,7 @@ getNewItemData1 = async () => {
  getNewItemData71 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-1;
      const Country=newInfo[count];
@@ -1319,7 +1319,7 @@ getNewItemData1 = async () => {
  getNewItemData72 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-2;
      const Country=newInfo[count];
@@ -1337,7 +1337,7 @@ getNewItemData1 = async () => {
  getNewItemData73 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-3;
      const Country=newInfo[count];
@@ -1355,7 +1355,7 @@ getNewItemData1 = async () => {
  getNewItemData74 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-4;
      const Country=newInfo[count];
@@ -1373,7 +1373,7 @@ getNewItemData1 = async () => {
  getNewItemData75 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-5;
      const Country=newInfo[count];
@@ -1391,7 +1391,7 @@ getNewItemData1 = async () => {
  getNewItemData76 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-6;
      const Country=newInfo[count];
@@ -1409,7 +1409,7 @@ getNewItemData1 = async () => {
  getNewItemData77 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-7;
      const Country=newInfo[count];
@@ -1427,7 +1427,7 @@ getNewItemData1 = async () => {
  getNewItemData78 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-8;
      const Country=newInfo[count];
@@ -1445,7 +1445,7 @@ getNewItemData1 = async () => {
  getNewItemData79 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-9;
      const Country=newInfo[count];
@@ -1463,7 +1463,7 @@ getNewItemData1 = async () => {
  getNewItemData80 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-10;
      const Country=newInfo[count];
@@ -1481,7 +1481,7 @@ getNewItemData1 = async () => {
  getNewItemData81 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-11;
      const Country=newInfo[count];
@@ -1499,7 +1499,7 @@ getNewItemData1 = async () => {
  getNewItemData82 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-12;
      const Country=newInfo[count];
@@ -1517,7 +1517,7 @@ getNewItemData1 = async () => {
  getNewItemData83 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-13;
      const Country=newInfo[count];
@@ -1535,7 +1535,7 @@ getNewItemData1 = async () => {
  getNewItemData84 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-14;
      const Country=newInfo[count];
@@ -1553,7 +1553,7 @@ getNewItemData1 = async () => {
  getNewItemData85 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-1;
      const Country=newInfo[count];
@@ -1571,7 +1571,7 @@ getNewItemData1 = async () => {
  getNewItemData86 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-2;
      const Country=newInfo[count];
@@ -1607,7 +1607,7 @@ getNewItemData1 = async () => {
  getNewItemData88 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-4;
      const Country=newInfo[count];
@@ -1625,7 +1625,7 @@ getNewItemData1 = async () => {
  getNewItemData89 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-5;
      const Country=newInfo[count];
@@ -1643,7 +1643,7 @@ getNewItemData1 = async () => {
  getNewItemData90 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-6;
      const Country=newInfo[count];
@@ -1661,7 +1661,7 @@ getNewItemData1 = async () => {
  getNewItemData91 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-7;
      const Country=newInfo[count];
@@ -1679,7 +1679,7 @@ getNewItemData1 = async () => {
  getNewItemData92 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-8;
      const Country=newInfo[count];
@@ -1697,7 +1697,7 @@ getNewItemData1 = async () => {
  getNewItemData93 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-9;
      const Country=newInfo[count];
@@ -1715,7 +1715,7 @@ getNewItemData1 = async () => {
  getNewItemData94 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-10;
      const Country=newInfo[count];
@@ -1733,7 +1733,7 @@ getNewItemData1 = async () => {
  getNewItemData95 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-11;
      const Country=newInfo[count];
@@ -1751,7 +1751,7 @@ getNewItemData1 = async () => {
  getNewItemData96 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-12;
      const Country=newInfo[count];
@@ -1769,7 +1769,7 @@ getNewItemData1 = async () => {
  getNewItemData97 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-13;
      const Country=newInfo[count];
@@ -1787,7 +1787,7 @@ getNewItemData1 = async () => {
  getNewItemData98 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-14;
      const Country=newInfo[count];
@@ -1805,7 +1805,7 @@ getNewItemData1 = async () => {
  getNewItemData99 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-1;
      const Country=newInfo[count];
@@ -1823,7 +1823,7 @@ getNewItemData1 = async () => {
  getNewItemData100 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-2;
      const Country=newInfo[count];
@@ -1841,7 +1841,7 @@ getNewItemData1 = async () => {
  getNewItemData101 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-3;
      const Country=newInfo[count];
@@ -1859,7 +1859,7 @@ getNewItemData1 = async () => {
  getNewItemData102 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-4;
      const Country=newInfo[count];
@@ -1877,7 +1877,7 @@ getNewItemData1 = async () => {
  getNewItemData103 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-5;
      const Country=newInfo[count];
@@ -1895,7 +1895,7 @@ getNewItemData1 = async () => {
  getNewItemData104 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-6;
      const Country=newInfo[count];
@@ -1913,7 +1913,7 @@ getNewItemData1 = async () => {
  getNewItemData105 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-7;
      const Country=newInfo[count];
@@ -1931,7 +1931,7 @@ getNewItemData1 = async () => {
  getNewItemData106 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-8;
      const Country=newInfo[count];
@@ -1949,7 +1949,7 @@ getNewItemData1 = async () => {
  getNewItemData107 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-9;
      const Country=newInfo[count];
@@ -1967,7 +1967,7 @@ getNewItemData1 = async () => {
  getNewItemData108 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-10;
      const Country=newInfo[count];
@@ -1985,7 +1985,7 @@ getNewItemData1 = async () => {
  getNewItemData109 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-11;
      const Country=newInfo[count];
@@ -2003,7 +2003,7 @@ getNewItemData1 = async () => {
  getNewItemData110 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-12;
      const Country=newInfo[count];
@@ -2021,7 +2021,7 @@ getNewItemData1 = async () => {
  getNewItemData111 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-13;
      const Country=newInfo[count];
@@ -2039,7 +2039,7 @@ getNewItemData1 = async () => {
  getNewItemData112 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-14;
      const Country=newInfo[count];
@@ -2057,7 +2057,7 @@ getNewItemData1 = async () => {
  getNewItemData113 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-1;
      const Country=newInfo[count];
@@ -2075,7 +2075,7 @@ getNewItemData1 = async () => {
  getNewItemData114 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-2;
      const Country=newInfo[count];
@@ -2093,7 +2093,7 @@ getNewItemData1 = async () => {
  getNewItemData115 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-3;
      const Country=newInfo[count];
@@ -2111,7 +2111,7 @@ getNewItemData1 = async () => {
  getNewItemData116 = async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-4;
      const Country=newInfo[count];
@@ -2129,7 +2129,7 @@ getNewItemData1 = async () => {
  getNewItemData117= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-5;
      const Country=newInfo[count];
@@ -2147,7 +2147,7 @@ getNewItemData1 = async () => {
  getNewItemData118= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-6;
      const Country=newInfo[count];
@@ -2165,7 +2165,7 @@ getNewItemData1 = async () => {
  getNewItemData119= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-7;
      const Country=newInfo[count];
@@ -2183,7 +2183,7 @@ getNewItemData1 = async () => {
  getNewItemData120= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-8;
      const Country=newInfo[count];
@@ -2201,7 +2201,7 @@ getNewItemData1 = async () => {
  getNewItemData121= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-9;
      const Country=newInfo[count];
@@ -2219,7 +2219,7 @@ getNewItemData1 = async () => {
  getNewItemData122= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-10;
      const Country=newInfo[count];
@@ -2237,7 +2237,7 @@ getNewItemData1 = async () => {
  getNewItemData123= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-11;
      const Country=newInfo[count];
@@ -2255,7 +2255,7 @@ getNewItemData1 = async () => {
  getNewItemData124= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-12;
      const Country=newInfo[count];
@@ -2273,7 +2273,7 @@ getNewItemData1 = async () => {
  getNewItemData125= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-13;
      const Country=newInfo[count];
@@ -2291,7 +2291,7 @@ getNewItemData1 = async () => {
  getNewItemData126= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-14;
      const Country=newInfo[count];
@@ -2309,7 +2309,7 @@ getNewItemData1 = async () => {
  getNewItemData127= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-1;
      const Country=newInfo[count];
@@ -2327,7 +2327,7 @@ getNewItemData1 = async () => {
  getNewItemData128= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-2;
      const Country=newInfo[count];
@@ -2345,7 +2345,7 @@ getNewItemData1 = async () => {
  getNewItemData129= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-3;
      const Country=newInfo[count];
@@ -2363,7 +2363,7 @@ getNewItemData1 = async () => {
  getNewItemData130= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-4;
      const Country=newInfo[count];
@@ -2381,7 +2381,7 @@ getNewItemData1 = async () => {
  getNewItemData131= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-5;
      const Country=newInfo[count];
@@ -2399,7 +2399,7 @@ getNewItemData1 = async () => {
  getNewItemData132= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-6;
      const Country=newInfo[count];
@@ -2417,7 +2417,7 @@ getNewItemData1 = async () => {
  getNewItemData133= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-7;
      const Country=newInfo[count];
@@ -2435,7 +2435,7 @@ getNewItemData1 = async () => {
  getNewItemData134= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-8;
      const Country=newInfo[count];
@@ -2453,7 +2453,7 @@ getNewItemData1 = async () => {
  getNewItemData135= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-9;
      const Country=newInfo[count];
@@ -2471,7 +2471,7 @@ getNewItemData1 = async () => {
  getNewItemData136= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-10;
      const Country=newInfo[count];
@@ -2489,7 +2489,7 @@ getNewItemData1 = async () => {
  getNewItemData137= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-11;
      const Country=newInfo[count];
@@ -2507,7 +2507,7 @@ getNewItemData1 = async () => {
  getNewItemData138= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-12;
      const Country=newInfo[count];
@@ -2525,7 +2525,7 @@ getNewItemData1 = async () => {
  getNewItemData139= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-13;
      const Country=newInfo[count];
@@ -2543,7 +2543,7 @@ getNewItemData1 = async () => {
  getNewItemData140= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-14;
      const Country=newInfo[count];
@@ -2561,7 +2561,7 @@ getNewItemData1 = async () => {
  getNewItemData141= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-1;
      const Country=newInfo[count];
@@ -2579,7 +2579,7 @@ getNewItemData1 = async () => {
  getNewItemData142= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-2;
      const Country=newInfo[count];
@@ -2597,7 +2597,7 @@ getNewItemData1 = async () => {
  getNewItemData143= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-3;
      const Country=newInfo[count];
@@ -2615,7 +2615,7 @@ getNewItemData1 = async () => {
  getNewItemData144= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-4;
      const Country=newInfo[count];
@@ -2633,7 +2633,7 @@ getNewItemData1 = async () => {
  getNewItemData145= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-5;
      const Country=newInfo[count];
@@ -2651,7 +2651,7 @@ getNewItemData1 = async () => {
  getNewItemData146= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-6;
      const Country=newInfo[count];
@@ -2669,7 +2669,7 @@ getNewItemData1 = async () => {
  getNewItemData147= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-7;
      const Country=newInfo[count];
@@ -2687,7 +2687,7 @@ getNewItemData1 = async () => {
  getNewItemData148= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-8;
      const Country=newInfo[count];
@@ -2705,7 +2705,7 @@ getNewItemData1 = async () => {
  getNewItemData149= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-9;
      const Country=newInfo[count];
@@ -2723,7 +2723,7 @@ getNewItemData1 = async () => {
  getNewItemData150= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-10;
      const Country=newInfo[count];
@@ -2741,7 +2741,7 @@ getNewItemData1 = async () => {
  getNewItemData151= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-11;
      const Country=newInfo[count];
@@ -2759,7 +2759,7 @@ getNewItemData1 = async () => {
  getNewItemData152= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-12;
      const Country=newInfo[count];
@@ -2777,7 +2777,7 @@ getNewItemData1 = async () => {
  getNewItemData153= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-13;
      const Country=newInfo[count];
@@ -2795,7 +2795,7 @@ getNewItemData1 = async () => {
  getNewItemData154= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-14;
      const Country=newInfo[count];
@@ -2813,7 +2813,7 @@ getNewItemData1 = async () => {
  getNewItemData155= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-1;
      const Country=newInfo[count];
@@ -2831,7 +2831,7 @@ getNewItemData1 = async () => {
  getNewItemData156= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-2;
      const Country=newInfo[count];
@@ -2849,7 +2849,7 @@ getNewItemData1 = async () => {
  getNewItemData157= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-3;
      const Country=newInfo[count];
@@ -2867,7 +2867,7 @@ getNewItemData1 = async () => {
  getNewItemData158= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-4;
      const Country=newInfo[count];
@@ -2885,7 +2885,7 @@ getNewItemData1 = async () => {
  getNewItemData159= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-5;
      const Country=newInfo[count];
@@ -2903,7 +2903,7 @@ getNewItemData1 = async () => {
  getNewItemData160= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-6;
      const Country=newInfo[count];
@@ -2921,7 +2921,7 @@ getNewItemData1 = async () => {
  getNewItemData161= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-7;
      const Country=newInfo[count];
@@ -2939,7 +2939,7 @@ getNewItemData1 = async () => {
  getNewItemData162= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-8;
      const Country=newInfo[count];
@@ -2957,7 +2957,7 @@ getNewItemData1 = async () => {
  getNewItemData163= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-9;
      const Country=newInfo[count];
@@ -2975,7 +2975,7 @@ getNewItemData1 = async () => {
  getNewItemData164= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-10;
      const Country=newInfo[count];
@@ -2993,7 +2993,7 @@ getNewItemData1 = async () => {
  getNewItemData165= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-11;
      const Country=newInfo[count];
@@ -3011,7 +3011,7 @@ getNewItemData1 = async () => {
  getNewItemData166= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-12;
      const Country=newInfo[count];
@@ -3029,7 +3029,7 @@ getNewItemData1 = async () => {
  getNewItemData167= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-13;
      const Country=newInfo[count];
@@ -3047,7 +3047,7 @@ getNewItemData1 = async () => {
  getNewItemData168= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-14;
      const Country=newInfo[count];
@@ -3065,7 +3065,7 @@ getNewItemData1 = async () => {
  getNewItemData169= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-1;
      const Country=newInfo[count];
@@ -3083,7 +3083,7 @@ getNewItemData1 = async () => {
  getNewItemData170= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-2;
      const Country=newInfo[count];
@@ -3101,7 +3101,7 @@ getNewItemData1 = async () => {
  getNewItemData171= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-3;
      const Country=newInfo[count];
@@ -3119,7 +3119,7 @@ getNewItemData1 = async () => {
  getNewItemData172= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-4;
      const Country=newInfo[count];
@@ -3137,7 +3137,7 @@ getNewItemData1 = async () => {
  getNewItemData173= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-5;
      const Country=newInfo[count];
@@ -3155,7 +3155,7 @@ getNewItemData1 = async () => {
  getNewItemData174= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-6;
      const Country=newInfo[count];
@@ -3173,7 +3173,7 @@ getNewItemData1 = async () => {
  getNewItemData175= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-7;
      const Country=newInfo[count];
@@ -3191,7 +3191,7 @@ getNewItemData1 = async () => {
  getNewItemData176= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-8;
      const Country=newInfo[count];
@@ -3209,7 +3209,7 @@ getNewItemData1 = async () => {
  getNewItemData177= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-9;
      const Country=newInfo[count];
@@ -3227,7 +3227,7 @@ getNewItemData1 = async () => {
  getNewItemData178= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-10;
      const Country=newInfo[count];
@@ -3245,7 +3245,7 @@ getNewItemData1 = async () => {
  getNewItemData179= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-11;
      const Country=newInfo[count];
@@ -3263,7 +3263,7 @@ getNewItemData1 = async () => {
  getNewItemData180= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-12;
      const Country=newInfo[count];
@@ -3281,7 +3281,7 @@ getNewItemData1 = async () => {
  getNewItemData181= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-13;
      const Country=newInfo[count];
@@ -3299,7 +3299,7 @@ getNewItemData1 = async () => {
  getNewItemData182= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-14;
      const Country=newInfo[count];
@@ -3317,7 +3317,7 @@ getNewItemData1 = async () => {
  getNewItemData183= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-1;
      const Country=newInfo[count];
@@ -3335,7 +3335,7 @@ getNewItemData1 = async () => {
  getNewItemData184= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-2;
      const Country=newInfo[count];
@@ -3353,7 +3353,7 @@ getNewItemData1 = async () => {
  getNewItemData185= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-3;
      const Country=newInfo[count];
@@ -3371,7 +3371,7 @@ getNewItemData1 = async () => {
  getNewItemData186= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-4;
      const Country=newInfo[count];
@@ -3389,7 +3389,7 @@ getNewItemData1 = async () => {
  getNewItemData187= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-5;
      const Country=newInfo[count];
@@ -3407,7 +3407,7 @@ getNewItemData1 = async () => {
  getNewItemData188= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-6;
      const Country=newInfo[count];
@@ -3425,7 +3425,7 @@ getNewItemData1 = async () => {
  getNewItemData189= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-7;
      const Country=newInfo[count];
@@ -3443,7 +3443,7 @@ getNewItemData1 = async () => {
  getNewItemData190= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-8;
      const Country=newInfo[count];
@@ -3461,7 +3461,7 @@ getNewItemData1 = async () => {
  getNewItemData191= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-9;
      const Country=newInfo[count];
@@ -3479,7 +3479,7 @@ getNewItemData1 = async () => {
  getNewItemData192= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-10;
      const Country=newInfo[count];
@@ -3497,7 +3497,7 @@ getNewItemData1 = async () => {
  getNewItemData193= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-11;
      const Country=newInfo[count];
@@ -3533,7 +3533,7 @@ getNewItemData1 = async () => {
  getNewItemData195= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-13;
      const Country=newInfo[count];
@@ -3551,7 +3551,7 @@ getNewItemData1 = async () => {
  getNewItemData196= async () => {
     // this line is optional: const Item = Moralis.Object.extend("Items");
     const query = new Moralis.Query("CountriesData");
-    query.ascending("createdAt");
+    query.descending("createdAt");
     const newInfo = await query.find();
     count = newInfo.length-14;
      const Country=newInfo[count];
