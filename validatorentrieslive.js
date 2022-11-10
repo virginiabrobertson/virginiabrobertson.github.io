@@ -1,7 +1,7 @@
 //this .js file updates the countrydata.html page from the moralis database
 
 
-let countryquery= "United States";
+let countryquery= "Albania";
 document.getElementById("countryTitle").innerHTML= countryquery;
 
 
@@ -144,7 +144,7 @@ getNewItemData1 = async () => {
 }
 getNewItemData1();
 
-let countryquery2="Jamaica";
+let countryquery2="Albania";
 document.getElementById("countryTitle2").innerHTML= countryquery2;
 
 getNewItemData2 = async () => {
