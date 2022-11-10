@@ -81,6 +81,12 @@ getSee = async () => {
     window.location.href= "itembancseedata.html";
 }
 
+getHelp = async () => {
+  console.log('Help was clicked');
+  document.write("help");
+  window.location.href= "itembanchelp.html";
+}
+
 //getValidator = async () => {
 //    console.log('Validator was clicked');
 //    document.write("validator");
@@ -98,6 +104,15 @@ document.getElementById("btn-login").onclick = login;
 
 document.getElementById("btn-logout").onclick = logOut;
 
+document.getElementById("btn-help").onclick = getHelp;
+
+document.getElementById("btn-justabout").onclick = getAbout;
+
+document.getElementById("btn-nationdata").onclick = getNationData;
+
+document.getElementById("btn-enginedata").onclick = getEngineData;
+
+
 if(document.querySelector('#get-itemdata') != null){
 document.querySelector('#get-itemdata').onclick = getItemData;
 }
@@ -107,17 +122,18 @@ document.querySelector('#get-nationdata').onclick = getNationData;
 //if(document.querySelector('#get-enginedata') != null){
 //document.querySelector('#get-enginedata').onclick = getEngineData;
 //}
-document.getElementById("btn-enginedata").onclick = getEngineData;
 
+//document.getElementById("btn-pricedata").onclick = getNationData;
 //if(document.querySelector('#get-about') !=null){
 //document.querySelector('#get-about').onclick = getAbout;
 //}
 document.getElementById("btn-about").onclick = getAbout;
-document.getElementById("btn-justabout").onclick = getAbout;
 
-if(document.querySelector('#get-see') !=null){
-document.querySelector('#get-see').onclick = getSee;
-}
+
+
+//if(document.querySelector('#get-see') !=null){
+//document.querySelector('#get-see').onclick = getSee;
+//};
 
 
 
